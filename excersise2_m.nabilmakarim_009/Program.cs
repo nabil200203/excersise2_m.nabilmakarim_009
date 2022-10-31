@@ -60,7 +60,8 @@ namespace excersise2_m.nabilmakarim_009
             {
                 while ((arr[i] <= pivot) && (i <= high))
                 {
-
+                    i++;
+                    cmp_count++;
                 }
 
             }
