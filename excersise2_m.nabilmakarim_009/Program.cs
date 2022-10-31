@@ -44,6 +44,27 @@ namespace excersise2_m.nabilmakarim_009
             arr[x] = arr[y];
             arr[y] = temp;
         }
+
+        public void q_sort(int low, int high)
+        {
+            int pivot, i, MN;
+            if (low > high)
+                return;
+
+            i = low + 1;
+            MN = high;
+
+            pivot = arr[low];
+
+            while (i <= MN)
+            {
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+
+                }
+
+            }
+        }
         static void Main(string[] args)
         {
         }
