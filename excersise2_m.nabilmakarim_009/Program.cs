@@ -19,6 +19,7 @@ namespace excersise2_m.nabilmakarim_009
                 Console.Write("Enter the number of elements in the array :");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
+                int n = 0;
                 if (n <= 29)
                     break;
                 else
@@ -73,6 +74,16 @@ namespace excersise2_m.nabilmakarim_009
                     mov_count++;
                 }
             }
+
+            if (low < MN)
+            {
+                swap(low, MN);
+                mov_count++;
+            }
+
+            q_sort(low, MN - 1);
+          
+            q_sort(MN + 1, high);
         }
         static void Main(string[] args)
         {
