@@ -85,6 +85,10 @@ namespace excersise2_m.nabilmakarim_009
           
             q_sort(MN + 1, high);
         }
+        void display()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
