@@ -87,7 +87,9 @@ namespace excersise2_m.nabilmakarim_009
         }
         void display()
         {
-
+            Console.WriteLine("\n---------------------");
+            Console.WriteLine("Sorted Array elements");
+            Console.WriteLine("\n---------------------");
         }
         static void Main(string[] args)
         {
