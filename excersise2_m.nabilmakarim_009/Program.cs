@@ -12,8 +12,20 @@ namespace excersise2_m.nabilmakarim_009
         private int cmp_count = 0;
         private int mov_count = 0;
 
-        private int n;
-        void Main()
+        void Read()
+        {
+            while (true)
+            {
+                Console.Write("Enter the number of elements in the array :");
+                string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 29)
+                    break;
+                else
+                    Console.WriteLine("\nArray can have maximum 29 elements \n");
+            }
+        }
+        static void Main(string[] args)
         {
         }
     }
