@@ -64,6 +64,14 @@ namespace excersise2_m.nabilmakarim_009
                     cmp_count++;
                 }
 
+                cmp_count++;
+
+                if (i < MN)
+                
+                {
+                    swap(i, MN);
+                    mov_count++;
+                }
             }
         }
         static void Main(string[] args)
