@@ -35,6 +35,15 @@ namespace excersise2_m.nabilmakarim_009
                 arr[i] = Int32.Parse(s1);
             }
         }
+
+        void swap(int x, int y)
+        {
+            int temp;
+
+            temp = arr[x];
+            arr[x] = arr[y];
+            arr[y] = temp;
+        }
         static void Main(string[] args)
         {
         }
