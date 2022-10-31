@@ -90,6 +90,16 @@ namespace excersise2_m.nabilmakarim_009
             Console.WriteLine("\n---------------------");
             Console.WriteLine("Sorted Array elements");
             Console.WriteLine("\n---------------------");
+
+            int n = 0;
+            for (int MN = 0; MN < n; MN++)
+            {
+                {
+                    Console.WriteLine(arr[j]);
+                }
+                Console.WriteLine("\nNumber of comparisons: ", cmp_count);
+                Console.WriteLine("\nNumber of data movemenets: " + mov_count);
+            }
         }
         static void Main(string[] args)
         {
